@@ -47,4 +47,30 @@ main{
     display: flex;
     width: 60%;
     background-color: white;
+    flex-direction: column;
+}
+.form-components > *{
+    padding: 0.5rem 1.6rem;
+}
+.form-text{
+    font-weight: bold;
+}
+.form-details{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.form-container{
+    display: flex;
+}
+.form-container > *{
+    width: 50%;
+}
+.form-inputs > * {
+    display: block;
+}
+.form-inputs > input {
+    margin-bottom: 10px;
+    width: 90%;
 }
