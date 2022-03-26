@@ -12,17 +12,18 @@ body{
 }
 main{
     display: flex;
+    flex: 1;
     margin: 0 auto;
     width: 1000px;
     height: 100vh;
     flex-wrap: wrap;
 }
 .side-background{
-    width: 38%;
+    display: flex;
+    flex-basis: 40%;
     background-image: url(background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
 }
 .logo{
     display: flex;
@@ -41,4 +42,9 @@ main{
     color: white;
     font-family: 'Norse-Bold';
     font-size: 4rem;
+}
+.form-components{
+    display: flex;
+    width: 60%;
+    background-color: white;
 }
